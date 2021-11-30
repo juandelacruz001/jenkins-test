@@ -1,0 +1,27 @@
+{
+  "name": "jenkins-test",
+  "version": "1.0.0",
+  "description": "Node app to learn Jenkins",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juandelacruz001/jenkins-test.git"
+  },
+  "author": "Juan Dela Cruz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juandelacruz001/jenkins-test/issues"
+  },
+  "homepage": "https://github.com/juandelacruz001/jenkins-test#readme",
+  "devDependencies": {
+    "jest": "^27.4.0",
+    "supertest": "^6.1.6"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
